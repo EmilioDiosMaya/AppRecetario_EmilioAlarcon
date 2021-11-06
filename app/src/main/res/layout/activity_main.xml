@@ -6,57 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
+        tools:layout_editor_absoluteY="597dp">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="292dp"
-            app:srcCompat="@drawable/comidarecetario" />
-
-        <Button
-            android:id="@+id/btnRegistrarReceta"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrar Receta" />
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Consultar" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                app:srcCompat="@drawable/comidarecetario" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Actualizar" />
+            <Button
+                android:id="@+id/btnRegistrarReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar Receta" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Eliminar" />
+            <Button
+                android:id="@+id/btnConsultarReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consultar" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Receta en la WEB..."
-            android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/txtURL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Receta en la WEB..."
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Buscar" />
+            <Button
+                android:id="@+id/btnNavegar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buscar" />
 
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

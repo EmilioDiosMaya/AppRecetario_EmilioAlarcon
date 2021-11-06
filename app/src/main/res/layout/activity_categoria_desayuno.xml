@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriaDesayuno">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txtIdDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txtNombreDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Aquí va a aparecer el nombre" />
+
+            <EditText
+                android:id="@+id/txtDescripcionDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Aquí va a aparecer la descripción" />
+
+            <EditText
+                android:id="@+id/txtIngredientesDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Aquí van a aparecer los ingredientes" />
+
+            <EditText
+                android:id="@+id/txtPreparacionDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Aquí va a aparecer la preparación" />
+
+            <ListView
+                android:id="@+id/lstDesayunos"
+                android:layout_width="match_parent"
+                android:layout_height="378dp"
+                android:layout_marginBottom="20dp">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/btnActualizarDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:text="Actualizar" />
+
+            <Button
+                android:id="@+id/btnEliminarDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="Eliminar" />
+
+            <Button
+                android:id="@+id/btnVolverDesayuno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:minHeight="48dp"
+                android:text="Volver"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

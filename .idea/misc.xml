@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_consultar_receta.xml" value="0.5" />
-        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_categoria_cena.xml" value="0.1" />
+        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_categoria_comida.xml" value="0.1" />
+        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_categoria_desayuno.xml" value="0.2074074074074074" />
+        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_categoria_postre.xml" value="0.33697916666666666" />
+        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_consultar_receta.xml" value="0.19895833333333332" />
+        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_navegador.xml" value="0.35104166666666664" />
         <entry key="..\:/UV/Semestres/7to Semestre/Desarrollo De Aplicaciones/Actividades/Actividad30_Recetario/app/src/main/res/layout/activity_registrar_receta.xml" value="0.33" />
       </map>
     </option>

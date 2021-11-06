@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriaPostre">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtIdPostre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/txtNombrePostre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Aquí va a aparecer el nombre" />
+
+            <EditText
+                android:id="@+id/txtDescripcionPostre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Aquí va a aparecer la descripción" />
+
+            <EditText
+                android:id="@+id/txtIngredientesPostre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Aquí van a aparecer los ingredientes"/>
+
+            <EditText
+                android:id="@+id/txtPreparacionPostre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Aquí va a aparecer la preparación"  />
+
+            <ListView
+                android:id="@+id/lstPostres"
+                android:layout_width="match_parent"
+                android:layout_height="378dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnActualizarPostre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:text="Actualizar" />
+
+            <Button
+                android:id="@+id/btnEliminarPostre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="Eliminar" />
+
+            <Button
+                android:id="@+id/btnVolverPostre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="Volver" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,68 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".RegistrarReceta">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_height="match_parent">>
 
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Nombre de la receta..."
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:inputType="textPersonName" />
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:ems="10"
-            android:hint="Descripción de la receta..."
-            android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/txtNombreReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Nombre de la receta..."
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:ems="10"
-            android:hint="Ingredientes que lleva..."
-            android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/txtDescripcionReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Descripción de la receta..."
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:ems="10"
-            android:hint="Como se prepara.."
-            android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/txtIngredientesReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Ingredientes que lleva..."
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
 
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/txtPreparacionReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Como se prepara.."
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Agregar Receta" />
+            <Spinner
+                android:id="@+id/spCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-        <Button
-            android:id="@+id/btnVolverRegistrar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Volver" />
+            <Button
+                android:id="@+id/btnAgregarReceta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar Receta" />
 
-    </LinearLayout>
+            <Button
+                android:id="@+id/btnVolverRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volver" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
