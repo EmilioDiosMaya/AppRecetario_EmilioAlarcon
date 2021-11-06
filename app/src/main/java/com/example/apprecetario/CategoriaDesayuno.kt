@@ -67,7 +67,7 @@ class CategoriaDesayuno: AppCompatActivity(){
 
                 val admin = AdminSQLite (this, "administracion", null, 1)
                 val bd = admin.writableDatabase
-                val informacionIdDesayuno = bd.rawQuery("SELECT id FROM recetas WHERE categora = 'desayuno'", null)
+                val informacionIdDesayuno = bd.rawQuery("SELECT id FROM recetas WHERE categoria = 'desayuno'", null)
 
                 var listaId : MutableList<String> = ArrayList()
 
